@@ -1,6 +1,8 @@
 public class Main {
                   /*** DESCRIPTION ***/
-  /*personal coding challenge about solving the time complexity divergence between the two main branches of a binary tree. When inserting nodes, many iterations can create an irregular binary tree regarding its branches depth, which can lead to odd time complexity. This script aims to reorder the nodes so that we get even processing time from the root node downwards*/
+  /*personal coding challenge about solving the time complexity divergence between the two main branches of a binary tree. 
+  When inserting nodes, many iterations can create an irregular binary tree regarding its branches depth, which can lead to odd time complexity. 
+  This script aims to reorder the nodes so that we get even processing time from the root node downwards*/
 
   
   static int greatest_depth_l = 0;
