@@ -80,7 +80,6 @@ public class Main {
     if (left_depth == right_depth) {
       return;
     }
-    
     if (left_depth > right_depth + 1) {
       Node node = root.left;
       Node parent;
@@ -101,7 +100,6 @@ public class Main {
         node.left = root.left;
         root.left = null;
         root = node;
-
       } else {
         node.right = root;
         node.right.left = null;
@@ -111,7 +109,6 @@ public class Main {
       greatest_depth_r = 0;
       return;
     }
-
     if (left_depth < right_depth) {
       Node node = root.right;
       Node parent;
@@ -130,7 +127,6 @@ public class Main {
         } else {
           parent.left = null;
         }
-
       } else {
         root.right.left = root;
         root = root.right;
